@@ -21,4 +21,4 @@ def day_number(day):
             return "Please enter a valid day"
 
 user_input = input("Enter a day of the week: ").strip().lower().title()
-print(day_number(user_input))
+print(user_input + " is day " + str(day_number(user_input)))
